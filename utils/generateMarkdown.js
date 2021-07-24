@@ -14,17 +14,17 @@ function renderLicenseSection(license) {}
 function generateMarkdown(data) {
   return `
   # ${data.title}
-
-  ## Table of Contents
-* [Description](#Description)
-* [Motivation](#Motivation) 
-* [Languages](#Languages)
-* [Installation](#Installation)
-* [Screenshots](#Screenshots)
-* [Link](#Link)
   
   ## Description
   ${data.description}
+
+  ## Table of Contents
+  * [Description](#Description)
+  * [Motivation](#Motivation) 
+  * [Languages](#Languages)
+  * [Usage](#Usage)
+  * [Screenshots](#Screenshots)
+  * [Link](#Link)
 
   ## Motivation
   ${data.motivation}
@@ -33,8 +33,8 @@ function generateMarkdown(data) {
   The Languages used to build the project are:
   ${data.languages}
 
-  ## Installation
-  ${data.install}
+  ## Usage
+  ${data.usage}
 
   ## Screenshots
   ${data.screenshot}

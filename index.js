@@ -53,8 +53,8 @@ const questions = () => {
           },
          {
             type: 'input',
-            name: 'install',
-            message: 'How can we install your project? Please list step by step.'
+            name: 'usage',
+            message: 'How can we utilize your project? Please list step by step.'
          },
          {
             type: 'confirm',
