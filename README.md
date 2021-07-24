@@ -2,6 +2,8 @@
   # Run Buddy
 
   ## Table of Contents
+* [Description](#Description)
+* [Motivation](#Motivation) 
 * [Languages](#Languages)
 * [Installation](#Installation)
 * [Screenshots](#Screenshots)
@@ -21,4 +23,4 @@
   ![article,aside,1](https://user-images.githubusercontent.com/83254086/126855132-77ca01dc-bb98-45ec-bccc-6bc82950151b.JPG)
 
   ## Link
-  https://github.com/https://mannyportillo11.github.io/run-buddy//Run Buddy
+  https://github.com/https://mannyportillo11.github.io/run-buddy/

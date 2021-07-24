@@ -33,6 +33,19 @@ const questions = () => {
            }
          },
          {
+          type: 'input',
+          name: 'motivation',
+          message: 'Please explain what was the motivation for this project. (Required)',
+          validate: motivInput => {
+           if(motivInput) {
+             return true;
+           } else {
+             console.log('Please enter your motivation!');
+             return false;
+           }
+         }
+       },
+         {
             type: 'checkbox',
             name: 'languages',
             message: 'What did you build this project with? (Check all that apply)',

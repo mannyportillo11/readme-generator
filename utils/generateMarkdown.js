@@ -16,6 +16,8 @@ function generateMarkdown(data) {
   # ${data.title}
 
   ## Table of Contents
+* [Description](#Description)
+* [Motivation](#Motivation) 
 * [Languages](#Languages)
 * [Installation](#Installation)
 * [Screenshots](#Screenshots)
@@ -23,6 +25,9 @@ function generateMarkdown(data) {
   
   ## Description
   ${data.description}
+
+  ## Motivation
+  ${data.motivation}
 
   ## Languages
   The Languages used to build the project are:
@@ -35,7 +40,7 @@ function generateMarkdown(data) {
   ${data.screenshot}
 
   ## Link
-  https://github.com/${data.link}/${data.title}
+  ${data.link}
 `;
 }
 
